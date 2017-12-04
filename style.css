@@ -1,0 +1,191 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.bg-1 {background: url(img/1.jpg)}
+.bg-2 {background: url(img/2.jpg)}
+.bg-3 {background: url(img/3.jpg)}
+.bg-4 {background: url(img/4.jpg)}
+.bg-5 {background: url(img/5.jpg)}
+.bg-6 {background: url(img/6.jpg)}
+.bg-7 {background: url(img/7.jpg)}
+.bg-8 {background: url(img/8.jpg)}
+.bg-9 {background: url(img/9.jpg)}
+.bg-10 {background: url(img/10.jpg)}
+
+.listing-carousel-area {}
+.section-padding {
+  padding: 30px 0;
+}
+.section-title {
+  margin-bottom: 80px;
+}
+.section-title h2 {
+  color: #222222;
+  font-size: 33px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-title p {
+  color: #888888;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+.section-title p span {
+  color: #f91942;
+  font-weight: 300;
+}
+.listing-carousel {
+    position: relative;
+    z-index: 1;
+}
+.listing-carousel:before, .listing-carousel:after {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: -500%;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  position: absolute;
+  top: 0;
+  width: 500%;
+  z-index: 1;
+}
+.listing-carousel:after {
+    left: auto;
+    right: -500%;
+}
+.single-listing-carousel {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 350px;
+  position: relative;
+  z-index: 1;
+}
+.single-listing-carousel:before {
+  background: #333 none repeat scroll 0 0;
+  border-radius: 5px;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.single-listing-carousel .listing-info {
+  bottom: 30px;
+  left: 10%;
+  position: absolute;
+  width: 80%;
+}
+.single-listing-carousel .listing-info h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+}
+.single-listing-carousel .listing-info p {
+  color: #b6b9ba;
+  font-size: 20px;
+  font-weight: 500;
+}
+.single-listing-carousel .listing-info a.border-btn {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 15px;
+  padding: 10px 25px;
+}
+.listing-carousel .owl-dots div {
+  border: 2px solid #bfbfbf;
+  border-radius: 50%;
+  display: inline-block;
+  height: 20px;
+  margin: 0 5px;
+  width: 20px;
+}
+.listing-carousel .owl-dots div.active {
+    background: #bfbfbf;
+}
+.listing-carousel .owl-dots {
+  margin-top: 50px;
+  text-align: center;
+}
+.listing-carousel.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+.listing-carousel-area {
+  overflow-x: hidden;
+}
